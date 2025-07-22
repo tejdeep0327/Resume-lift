@@ -5,6 +5,7 @@ import App from './App.jsx'
 import SigninPage from './auth/sign-in/index.jsx'
 import Home from './home/index.jsx' 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import Dashboard from './dashboard'
 
 const router = createBrowserRouter([
   {
@@ -13,6 +14,11 @@ const router = createBrowserRouter([
       {
          path: '/',
          element:<Home />
+      },
+      {
+         path: '/dashboard',
+         element:<Dashboard />
+
       }
     ]
   },
