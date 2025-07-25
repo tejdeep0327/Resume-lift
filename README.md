@@ -1,12 +1,37 @@
-# React + Vite
+# 🛠️ ResumeLift (In Development)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**ResumeLift** is an AI-powered resume builder built using React, Clerk for authentication, and a custom backend service.  
+This project is currently **under active development**, and features are being added incrementally.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚧 Project Status
 
-## Expanding the ESLint configuration
+> ⚠️ This project is **not yet production-ready**.  
+> Core features are still being developed and refined. You may encounter incomplete flows or placeholder components.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ✨ Planned Features
+
+- 🔐 Clerk-based user authentication
+- 📝 AI-assisted resume creation
+- 📄 Edit, save, and manage multiple resumes
+- 🧠 Smart suggestions for sections like experience, summary, and skills
+- ⬇️ Export resumes as PDF
+- 📱 Mobile responsive UI
+
+---
+
+## 🛠 Tech Stack
+
+- **Frontend:** React + Vite
+- **UI:** Tailwind CSS, Lucide Icons
+- **Auth:** Clerk.dev
+- **Backend:** Planned via Node.js/Express or Strapi
+- **State Management:** React hooks + context (planned)
+
+---
+
+## 📁 Project Structure (Work in Progress)
+
